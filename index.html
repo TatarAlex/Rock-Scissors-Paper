@@ -2,11 +2,40 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Title</title>
-        <link rel="stylesheet" href="">
-        <script type="text/javascript" src="myscripts.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock-Scissors-Paper</title>
+        <link rel="stylesheet" href="style.css"> 
     </head>
     <body>
+        <h1>This is a Rock-Paper-Scissors Game</h1>
+        <h2>Let`s see who wins</h2>
+        <div id="btn-container">
+            <button type="button" class="buttons" id="rock" value="rock">
+                <img src="rock.png" alt="Rock">
+                <p>Rock</p>
+            </button>
+            <button type="button" class="buttons" id="scissors" value="scissors">
+                <img src="scissors.png" alt="Scissors">
+                <p>Scissors</p>
+            </button>
+            <button type="button" class="buttons" id="paper" value="paper">
+                <img src="paper.png" alt="Paper">
+                <p>Paper</p>
+            </button>
+        </div>
         
+        <div id="score-label">
+            <div id="p-score-container">
+                <div class="player-score">You</div>
+                <div class="player-score" id="player-score">0</div>
+            </div>
+            <div id="c-score-container">
+                <div class="computer-score">Computer</div>
+                <div class="computer-score" id="computer-score">0</div>
+            </div>
+        </div>
+
+        <div id="results-container"></div>
+        <script type="text/javascript" src="myscripts.js"></script>
     </body>
 </html>
