@@ -18,13 +18,13 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0 auto;
   text-align: center;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .buttons {
@@ -43,7 +43,7 @@ h2 {
 }
 
 img {
-  width: 200px;
+  width: 130px;
   height: auto;
 }
 
@@ -51,7 +51,7 @@ img {
   font-size: 1.5rem;
   display: flex;
   flex-direction: row;
-  margin: 100px;
+  margin: 50px;
   align-items: center;
   text-align: center;
 }
@@ -66,7 +66,7 @@ img {
 }
 
 #results-container {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
 }
 
